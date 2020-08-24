@@ -11,6 +11,7 @@
   },
   "scripts": {
     "preinstall": "meta git update",
-    "generate": "rm -rf dist && mkdir dist && icon-font-generator set-ui/icons/*.svg -o dist"
+    "generate": "rm -rf dist && mkdir dist && icon-font-generator set-ui/icons/*.svg -o dist",
+    "postinstall": "yarn generate"
   }
 }
