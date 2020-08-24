@@ -1,16 +1,16 @@
 {
   "name": "seti-ui-font",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "repository": "git@github.com:DeepChannel/seti-ui-font.git",
   "author": "Matt Walters <github@iammattwalters.com>",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "icon-font-generator": "^2.1.10",
     "meta-git": "^1.1.3"
   },
   "scripts": {
-    "preinstall": "meta-git update",
+    "preinstall": "meta-git-update",
     "generate": "rm -rf dist && mkdir dist && npx icon-font-generator seti-ui/icons/*.svg -o dist",
     "postinstall": "yarn generate"
   }
