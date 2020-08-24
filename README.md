@@ -1,6 +1,6 @@
-# set-ui-font
+# seti-ui-font
 
-This package contains simple scripts for creating a reusable font from [set-ui](https://github.com/jesseweed/seti-ui).
+This package contains simple scripts for creating a reusable font from [seti-ui](https://github.com/jesseweed/seti-ui).
 
 ## To use
 
